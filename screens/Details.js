@@ -1,6 +1,8 @@
-import { Text } from "react-native";
+import { Text, View, SafeAreaView, Image, StatusBar, FlatList } from "react-native";
+import { COLORS, SIZES, SHADOWS, FONTS, assets } from '../constants';
+import { CircleButton, RectButton, SubInfo, FocusedStatusBar, DetailsDesc, DetailsBid } from "../components";
 
-const Details = () => {
+const Details = ({ route, navigation }) => {
   return (
     <Text>
         Details
