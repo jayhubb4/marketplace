@@ -48,7 +48,7 @@ export const RectButton = ({ minWidth, fontSize, handlePress, ...props }) => {
           color: COLORS.white,
           textAlign: 'center',
           justifyContent: 'center',
-          position: 'center'
+          position: 'center',
         }} >
         Place a Bid
       </Text>
