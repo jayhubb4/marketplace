@@ -20,12 +20,12 @@ const DetailsHeader = ({ data, navigation }) => (
       imgUrl={assets.left}
       handlePress={() => navigation.goBack()}
       left={15}
-      top={StatusBar.currentHeight + 10 }
+      bottom={StatusBar.currentHeight + 295 }
     />
     <CircleButton
       imgUrl={assets.heart}
       right={15}
-      top={StatusBar.currentHeight + 10 }
+      bottom={StatusBar.currentHeight + 295 }
     />
   </View>
 )
@@ -82,7 +82,7 @@ const Details = ({ route, navigation }) => {
                         fontFamily: FONTS.semiBold,
                         color: COLORS.primary
                       }}>
-                      Current BidS
+                      Current Bids
                     </Text>
                   )}
                 </View>

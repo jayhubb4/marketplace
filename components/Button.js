@@ -47,6 +47,7 @@ export const RectButton = ({ minWidth, fontSize, handlePress, ...props }) => {
           fontSize: fontSize,
           color: COLORS.white,
           textAlign: 'center',
+          marginTop: -5,
           justifyContent: 'center',
           position: 'center',
         }} >
